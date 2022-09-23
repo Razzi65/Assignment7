@@ -18,8 +18,25 @@
 // }
 // console.log(a("aca", "aca"));
 // 5. Write a ts program to convert lowercase string to uppercase.
+// var a = (aa:string):string => aa.toUpperCase()
+// console.log(a("assas"));
 // 6. Write a ts program to convert uppercase string to lowercase.
+// var a = (aa:string) : string => aa.toLowerCase()
+// console.log(a("PAKISTAN"))
 // 7. Write a ts program to toggle case of each character of a string.
+var c = "";
+var a = function (aa) {
+    for (var i = 0; i < aa.length; i++) {
+        if (aa[i].toUpperCase() == aa[i]) {
+            c += aa[i].toLowerCase();
+        }
+        if (aa[i].toLowerCase() == aa[i]) {
+            c += aa[i].toUpperCase();
+        }
+    }
+    return c;
+};
+console.log(a("AAbcd", 6));
 // 8. Write a ts program to find total number of alphabets, digits or special character in a string.
 // 9. Write a ts program to count total number of vowels and consonants in a string.
 // 10. Write a ts program to count total number of words in a string.
