@@ -5,7 +5,7 @@
 // 3. Write a ts program to concatenate two strings.
 // var a = (aa:string, bb:string) :string => {
 //     return aa+bb;
-// } 
+// }
 // console.log(a("abc", "def"));
 // 4. Write a ts program to compare two strings.
 // var c:string=""
@@ -24,22 +24,51 @@
 // var a = (aa:string) : string => aa.toLowerCase()
 // console.log(a("PAKISTAN"))
 // 7. Write a ts program to toggle case of each character of a string.
-var c = "";
-var a = function (aa) {
-    for (var i = 0; i < aa.length; i++) {
-        if (aa[i].toUpperCase() == aa[i]) {
-            c += aa[i].toLowerCase();
-        }
-        if (aa[i].toLowerCase() == aa[i]) {
-            c += aa[i].toUpperCase();
-        }
-    }
-    return c;
-};
-console.log(a("AAbcd", 6));
+// var c:string=""
+// var a = (aa:string):string => {
+//     for(var i=0; i<aa.length; i++) {
+//         if (aa[i].toUpperCase()==aa[i]) {
+//             c += aa[i].toLowerCase()
+//             }
+//             if(aa[i].toLowerCase()==aa[i]) {
+//                 c+= aa[i].toUpperCase()
+//             }
+//     }
+//     return c;
+// }
+// console.log(a("AAcdA"));
 // 8. Write a ts program to find total number of alphabets, digits or special character in a string.
+// var a:string="4848"
+// for(var i=0;i<=126;i++) {
+//     console.log(String.fromCharCode(i) ) {
+//         console.log(a[i])
+//     }
+// }
 // 9. Write a ts program to count total number of vowels and consonants in a string.
+// var d:string=""
+// var e:number=""
+// var a = (b:string): string => {
+//     for(var i=0;i<=b.length-1;i++) {
+//         if (b[i] == "a" || b[i] == "e" || b[i] == "i" || b[i] == "o" ||  b[i] == "u" ) {
+//             d++;
+//         }
+//         else (e++)
+//     }
+//     return (d)
+// }
+// console.log("Number of vowels are", a("heealloow"));
 // 10. Write a ts program to count total number of words in a string.
+// var a:string="Hello World This is TS"
+// var b:number=0
+// var aa = (c:string): number => {
+//     for(var i=1;i<=c.length;i++) {
+//         if(c.charCodeAt(i)==32) {
+//             b++
+//         }
+//     }
+//     return b+1;
+// }
+// console.log("total numbers is string are", aa("hello world this is type script"));
 // 11. Write a ts program to find reverse of a string.
 // 12. Write a ts program to check whether a string is palindrome or not.
 // 13. Write a ts program to reverse order of words in a given string
