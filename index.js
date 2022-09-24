@@ -70,6 +70,15 @@
 // }
 // console.log("total numbers is string are", aa("hello world this is type script"));
 // 11. Write a ts program to find reverse of a string.
+// var a:string="Hello World"
+// var b:string=""
+// var aa = (bb:string):string => {
+//     for (var i=bb.length-1; i>=0;i--) {
+//         b+=bb[i]
+//     }
+//     return b;
+// }
+// console.log(aa("hello world"));
 // 12. Write a ts program to check whether a string is palindrome or not.
 // 13. Write a ts program to reverse order of words in a given string
 // 14. Write a ts program to find first occurrence of a character in a given string.
