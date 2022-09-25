@@ -93,15 +93,26 @@
 // }
 // console.log(aa("halalah"));
 // 13. Write a ts program to reverse order of words in a given string
-var a = "hello world this is Typescript";
-var b = "";
-for (var i = 0; i <= a.length - 1; i++) {
-    if (a[i] == " ") {
-        b += a[i];
-    }
-}
-console.log(b);
+// var a:string = "hello world this is Typescript"
+// var b:string = ""
+// for (var i=0;i<=a.length-1;i++) {
+//     if (a[i]==" " ) {
+//         b += a[i]
+//     }
+// }
+// console.log(b);
 // 14. Write a ts program to find first occurrence of a character in a given string.
+var d = 0;
+var a = function (b) {
+    for (var i = 0; i <= b.length; i++) {
+        if (b[i] == "o") {
+            d = i;
+            break;
+        }
+    }
+    return d;
+};
+console.log(("First Occurance of o is at index"), a("a quick quick brown"));
 // 15. Write a ts program to find last occurrence of a character in a given string.
 // 16. Write a ts program to search all occurrences of a character in given string.
 // 17. Write a ts program to count occurrences of a character in given string.
