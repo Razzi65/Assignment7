@@ -195,32 +195,117 @@
 
 // 14. Write a ts program to find first occurrence of a character in a given string.
 
-var d:number=0
+// var d:number=0
 
-var a = (b:string): number => {
-    for(var i=0;i<=b.length;i++) {
-        if (b[i]=="o") {
-            d=i;
-        break  
-        }
+// var a = (b:string,findoccurn:string): number => {
+//     for(var i=0;i<=b.length;i++) {
+//         if (b[i]==findoccurn) {
+//             d=i;
+//         break  
+//         }
         
-    }
-    return d;
-}
-console.log(("First Occurance of o is at index"), a("a quick quick brown"));
+//     }
+//     return d;
+// }
+// console.log(("First Occurance of o is at index"), a("a quick quick brown", "o"));
 
 
 // 15. Write a ts program to find last occurrence of a character in a given string.
+
+
+// var c:number=0
+// var a = (b:string, findindex:string): number => {
+//         c=b.lastIndexOf(findindex);
+//         return c;
+
+// }
+
+// console.log("Last occurance is ", a("hellod world", "d"));
+
+
+
+
 // 16. Write a ts program to search all occurrences of a character in given string.
+
+// var d:string=""
+// var c:string=""
+// var SearchAllOccurnc = (textt:string, chrctr:string) => {
+//     for (var i=0;i<=textt.length-1;i++){
+//         if(textt[i]==chrctr){
+//             d=i.toString()
+//             c += d
+//         }
+        
+
+//     }
+//     return c;
+        
+//     }
+//     console.log(SearchAllOccurnc("type script is good","o"));
+    
+
+
+
+
+
+
 // 17. Write a ts program to count occurrences of a character in given string.
+
+// var c:number=0;
+// var searchOccur = (textt:string, findOccur:string) => {
+//     for(var index=0;index<=textt.length;index++) {
+//         if(textt[index]==findOccur) {
+//             c++;
+//         }
+//     }
+//     return c.;
+// } 
+
+// console.log("Total Occurance are",searchOccur("hellooo typescript world", "o"));
+
+
 // 18. Write a ts program to find highest frequency character in a string.
+
+
+
+
+
 // 19. Write a ts program to find lowest frequency character in a string.
 // 20. Write a ts program to count frequency of each character in a string.
 // 21. Write a ts program to remove first occurrence of a character from string.
+
+// var newtext:string=""
+// var removeOccur = (textt:string, chrc2Remove:string): string => {
+//     for (var i=0;i<=textt.length-1;i++) {
+//         if (textt[i]==chrc2Remove) {
+//             newtext=textt.slice(i,i+1)
+            
+//         }
+//     }
+// return newtext;
+// }
+// console.log(removeOccur("hello wirld","i"));
+
+
+
 // 22. Write a ts program to remove last occurrence of a character from string.
 // 23. Write a ts program to remove all occurrences of a character from string.
 // 24. Write a ts program to remove all repeated characters from a given string.
 // 25. Write a ts program to replace first occurrence of a character with another in a string.
+
+var x:string=""
+var replaceOccurnc = (text:string,replaceThis:string,replacewith:string):string => {
+    for(var i=0;i<=text.length;i++) {
+        if (text[i]==replaceThis) {
+            x=text.replace(text[i],replacewith)
+        }
+    }
+    return x;
+}
+
+console.log(replaceOccurnc("Faisalabad","a","s"));
+
+
 // 26. Write a ts program to replace last occurrence of a character with another in a string.
 // 27. Write a ts program to replace all occurrences of a character with another in a string.
 // 28. Write a ts program to find first occurrence of a word in a given string.
