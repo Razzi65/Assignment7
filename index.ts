@@ -410,15 +410,63 @@
 
 // 5. Write a ts program to check whether character is an alphabet or not using conditional operator.
 
-var a:any = a;
+// var a:any = 123;
 
-var aa = (a/a==1)? "It's a character":"it's an alphabet"
-console.log(aa);
+// var aa = (a/a==1)? "It's a character":"it's an alphabet"
+// console.log(aa);
+
+// var a:any="d"
+
+// var b=((a>="A" && a<="Z"))? "it's an alphabet" : "it's a number"
+
+// console.log(b);
+
+
 
 
 // List of switch case programming exercises
 
 // 1. Write a ts program to print day of week name using switch case.
+
+var b:number=7;
+
+switch (b) {
+    case b=1 : {
+        console.log("Saturday");
+        break;
+    }
+    case b=2 : {
+        console.log("Sunday");
+        break;
+    }
+    case b=3 : {
+        console.log("Monday");
+        break;
+    }
+    case b=4 : {
+        console.log("Tuesday");
+        break;
+    }
+    case b=5 : {
+        console.log("Wednesday");
+        break;
+    }
+    case b=6 : {
+        console.log("Thursday");
+        break;
+        
+    }
+    case b=7 :{
+        console.log("Friday");
+        break;
+    }
+     default: {
+        console.log("Inavlid input");
+        
+
+    }
+}
+
 // 2. Write a ts program print total number of days in a month using switch case.
 // 3. Write a ts program to check whether an alphabet is vowel or consonant using switch case.
 // 4. Write a ts program to find maximum between two numbers using switch case.
