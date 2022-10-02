@@ -214,13 +214,26 @@
 // 38. Write a ts program to remove all extra blank spaces from given string.
 // conditional operators programming exercises
 // 1. Write a ts program to find maximum between two numbers using conditional operator.
-var a = 9;
-var b = 4;
-var c = (a > b) ? "A is bigger" : "B is bigger";
-console.log(c);
+// var a:number=9
+// var b:number=4
+// var c = (a>b)? "A is bigger": "B is bigger";
+// console.log(c);
 // 2. Write a ts program to find maximum between three numbers using conditional operator.
+// var a:number=19
+// var b:number=19
+// var c:number=25
+// var aa = (a>b && a>c)? "A is bigger":""
+// var bb = (b>a && b>c)? "B is bigger" : ""
+// var cc = (c>a && c>b)? "C is bigger" : ""
+// console.log(aa,bb,cc);
 // 3. Write a ts program to check whether a number is even or odd using conditional operator.
+// var a:number = 16;
+// var aa=(a%2==0)? "Number is Even" : "Number is odd"
+// console.log(aa);
 // 4. Write a ts program to check whether year is leap year or not using conditional operator.
+// var Year:number=1128;
+// var checkYear = (Year%4==0)? "It's Leap Year":"It's not a leap year"
+// console.log(checkYear);
 // 5. Write a ts program to check whether character is an alphabet or not using conditional operator.
 // List of switch case programming exercises
 // 1. Write a ts program to print day of week name using switch case.
