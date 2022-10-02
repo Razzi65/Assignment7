@@ -243,41 +243,94 @@
 // console.log(b);
 // List of switch case programming exercises
 // 1. Write a ts program to print day of week name using switch case.
-var b = 7;
-switch (b) {
-    case b = 1: {
-        console.log("Saturday");
-        break;
-    }
-    case b = 2: {
-        console.log("Sunday");
-        break;
-    }
-    case b = 3: {
-        console.log("Monday");
-        break;
-    }
-    case b = 4: {
-        console.log("Tuesday");
-        break;
-    }
-    case b = 5: {
-        console.log("Wednesday");
-        break;
-    }
-    case b = 6: {
-        console.log("Thursday");
-        break;
-    }
-    case b = 7: {
-        console.log("Friday");
-        break;
-    }
-    default: {
-        console.log("Inavlid input");
-    }
-}
+// var b:number=7;
+// switch (b) {
+//     case b=1 : {
+//         console.log("Saturday");
+//         break;
+//     }
+//     case b=2 : {
+//         console.log("Sunday");
+//         break;
+//     }
+//     case b=3 : {
+//         console.log("Monday");
+//         break;
+//     }
+//     case b=4 : {
+//         console.log("Tuesday");
+//         break;
+//     }
+//     case b=5 : {
+//         console.log("Wednesday");
+//         break;
+//     }
+//     case b=6 : {
+//         console.log("Thursday");
+//         break;
+//     }
+//     case b=7 :{
+//         console.log("Friday");
+//         break;
+//     }
+//      default: {
+//         console.log("Inavlid input");
+//     }
+// }
 // 2. Write a ts program print total number of days in a month using switch case.
+var month = "June";
+switch (month) {
+    case month = "January": {
+        console.log(month, "has 31 days");
+        break;
+    }
+    case month = "February": {
+        console.log(month, "has 28 days");
+        break;
+    }
+    case month = "March": {
+        console.log(month, "has 31 days");
+        break;
+    }
+    case month = "April": {
+        console.log(month, "has 30 days");
+        break;
+    }
+    case month = "May": {
+        console.log(month, "has 31 days");
+        break;
+    }
+    case month = "June": {
+        console.log(month, "has 30 days");
+        break;
+    }
+    case month = "July": {
+        console.log(month, "has 31 days");
+        break;
+    }
+    case month = "August": {
+        console.log(month, "has 31 days");
+        break;
+    }
+    case month = "September": {
+        console.log(month, "has 30 days");
+        break;
+    }
+    case month = "October": {
+        console.log(month, "has 31 days");
+        break;
+    }
+    case month = "November": {
+        console.log(month, "has 30 days");
+        break;
+    }
+    case month = "December": {
+        console.log(month, "has 31 days");
+        break;
+    }
+    default:
+        console.log("Enter correct input");
+}
 // 3. Write a ts program to check whether an alphabet is vowel or consonant using switch case.
 // 4. Write a ts program to find maximum between two numbers using switch case.
 // 5. Write a ts program to check whether a number is even or odd using switch case.
