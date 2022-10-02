@@ -410,6 +410,12 @@
 
 // 5. Write a ts program to check whether character is an alphabet or not using conditional operator.
 
+var a:any = a;
+
+var aa = (a/a==1)? "It's a character":"it's an alphabet"
+console.log(aa);
+
+
 // List of switch case programming exercises
 
 // 1. Write a ts program to print day of week name using switch case.
