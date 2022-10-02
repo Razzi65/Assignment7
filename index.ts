@@ -266,7 +266,14 @@
 
 // 18. Write a ts program to find highest frequency character in a string.
 
+// var a:string = "helloo worlld"
+// var d:string = ""
 
+// for (var i=0;i<=a.length;i++) {
+//     for (var j=0;j<i;j++) {
+//         if(a[i])
+//     }
+// }
 
 
 
@@ -293,22 +300,55 @@
 // 24. Write a ts program to remove all repeated characters from a given string.
 // 25. Write a ts program to replace first occurrence of a character with another in a string.
 
-var x:string=""
-var replaceOccurnc = (text:string,replaceThis:string,replacewith:string):string => {
-    for(var i=0;i<=text.length;i++) {
-        if (text[i]==replaceThis) {
-            x=text.replace(text[i],replacewith)
-        }
-    }
-    return x;
-}
+// var x:string=""
+// var replaceOccurnc = (text:string,replaceThis:string,replacewith:string):string => {
+//     for(var i=0;i<=text.`length;i++) {
+//         if (text[i]==replaceThis) {
+//             x=text.replace(text[i],replacewith)
+//         }
+//     }
+//     return x;
+// }
 
-console.log(replaceOccurnc("Faisalabad","a","s"));
+// console.log(replaceOccurnc("Faisalabad","a","s"));
 
 
-// 26. Write a ts program to replace last occurrence of a character with another in a string.
+// 26. Write a ts program to replace last occurrence of a character with another in a string.'
+
+// var d:string=""
+
+// var replaceOccurc = (textt:string, replacethis:string,replacewithh:string):string => {
+//     for (var i=textt.length-1;i>=0;i--) {
+//         if (textt[i]==replacethis) {
+//             d=textt.replace(textt[i],replacewithh)
+        
+            
+//         }
+//     } 
+//     return d;
+// } 
+
+// console.log(replaceOccurc("hello world ","l","i"));
+
+
 // 27. Write a ts program to replace all occurrences of a character with another in a string.
 // 28. Write a ts program to find first occurrence of a word in a given string.
+
+// var c:number=0
+// var a=(textt:string) :number => {
+//     for (var i=0;i<=textt.length;i++) {
+//         if(textt[i]==" ") {
+//             c=i;
+            
+            
+//         }
+//     }
+//     return c;
+// }
+// console.log("First occurance of word is at index", a("hello world"));
+
+
+
 // 29. Write a ts program to find last occurrence of a word in a given string.
 // 30. Write a ts program to search all occurrences of a word in given string.
 // 31. Write a ts program to count occurrences of a word in a given string.
@@ -323,6 +363,18 @@ console.log(replaceOccurnc("Faisalabad","a","s"));
 // conditional operators programming exercises
 
 // 1. Write a ts program to find maximum between two numbers using conditional operator.
+
+var a:number=9
+var b:number=4
+
+var c = (a>b)? "A is bigger": "B is bigger";
+console.log(c);
+
+
+
+
+
+
 // 2. Write a ts program to find maximum between three numbers using conditional operator.
 // 3. Write a ts program to check whether a number is even or odd using conditional operator.
 // 4. Write a ts program to check whether year is leap year or not using conditional operator.
@@ -338,3 +390,4 @@ console.log(replaceOccurnc("Faisalabad","a","s"));
 // 6. Write a ts program to check whether a number is positive, negative or zero using switch case.
 // 7. Write a ts program to find roots of a quadratic equation using switch case.
 // 8. Write a ts program to create Simple Calculator using switch case.
+
