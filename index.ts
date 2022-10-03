@@ -356,9 +356,41 @@
 // 33. Write a ts program to remove last occurrence of a word in given string.
 // 34. Write a ts program to remove all occurrence of a word in given string.
 // 35. Write a ts program to trim leading white space characters from given string.
+
+// var a:string=" hello world"
+// console.log(a);
+
+// var b:string=a.trim()
+
+// console.log(b);
+
+
 // 36. Write a ts program to trim trailing white space characters from given string.
+
+// var a:string="hello world  "
+// var b:string= a.trimEnd()
+
+
+// console.log(b);
+
 // 37. Write a ts program to trim both leading and trailing white space characters from given string.
+
+// var a:string="   hello world  "
+
+// var b:string= a.trimStart()
+// var c:string= b.trimEnd()
+// console.log(c);
+
+
 // 38. Write a ts program to remove all extra blank spaces from given string.
+var a:string="   hello    world  "
+
+var b:string= a.trimStart()
+var c:string= a.trim()
+
+console.log(c);
+
+
 
 // conditional operators programming exercises
 
