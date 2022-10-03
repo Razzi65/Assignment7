@@ -469,72 +469,175 @@
 
 // 2. Write a ts program print total number of days in a month using switch case.
 
-var month:string="June"
-switch (month) {
-    case month="January":{
-        console.log(month, "has 31 days");
-        break;
-    } 
-    case month = "February": {
-        console.log(month, "has 28 days");
-        break;
+// var month:string="June"
+// switch (month) {
+//     case month="January":{
+//         console.log(month, "has 31 days");
+//         break;
+//     } 
+//     case month = "February": {
+//         console.log(month, "has 28 days");
+//         break;
         
-    }
-    case month="March":{
-        console.log(month, "has 31 days");
-        break;
-    }
+//     }
+//     case month="March":{
+//         console.log(month, "has 31 days");
+//         break;
+//     }
         
-    case month="April":{
-        console.log(month, "has 30 days");
-        break;
-    }
-    case month="May":{
-        console.log(month, "has 31 days");
-        break;
-    }
-        case month="June":{
-        console.log(month, "has 30 days");
-        break;
-        }
-        case month="July":{
-        console.log(month, "has 31 days");
-        break;
-        }
-        case month="August":{
-        console.log(month, "has 31 days");
-        break;
-        }
+//     case month="April":{
+//         console.log(month, "has 30 days");
+//         break;
+//     }
+//     case month="May":{
+//         console.log(month, "has 31 days");
+//         break;
+//     }
+//         case month="June":{
+//         console.log(month, "has 30 days");
+//         break;
+//         }
+//         case month="July":{
+//         console.log(month, "has 31 days");
+//         break;
+//         }
+//         case month="August":{
+//         console.log(month, "has 31 days");
+//         break;
+//         }
         
-        case month="September":{
-        console.log(month, "has 30 days");
-        break;
-        }
-        case month="October":{
-        console.log(month, "has 31 days");
-        break;
-        }
+//         case month="September":{
+//         console.log(month, "has 30 days");
+//         break;
+//         }
+//         case month="October":{
+//         console.log(month, "has 31 days");
+//         break;
+//         }
         
-        case month="November":{
-        console.log(month, "has 30 days");
-        break;
-        }
-        case month="December":{
-        console.log(month, "has 31 days");
-        break;
-        }
+//         case month="November":{
+//         console.log(month, "has 30 days");
+//         break;
+//         }
+//         case month="December":{
+//         console.log(month, "has 31 days");
+//         break;
+//         }
     
-    default :
-    console.log("Enter correct input");
+//     default :
+//     console.log("Enter correct input");
     
     
-    }
+//     }
 
 
 // 3. Write a ts program to check whether an alphabet is vowel or consonant using switch case.
+
+// var a:string = "u"
+
+// switch (a) {
+//     case a="a" : {
+//         console.log("it is Vowel");
+//         break;
+//     }
+//     case a="e": {
+//         console.log("it is vowel");
+//         break;
+//     }
+//     case a="i" : {
+//         console.log("it's vowel");
+//         break;        
+//     }
+//     case a="o": {
+//         console.log("It's vowel");
+//         break;
+//     }
+//     case a="u" : {
+//         console.log(("it's vowel"));
+//         break;
+//     }
+//     default: {
+//         console.log("It's consonant");
+        
+//     }
+// }
+
 // 4. Write a ts program to find maximum between two numbers using switch case.
+
+// var a:number=8
+// var b:number=10
+
+
+
+// switch (a>b) {
+//     case true :{
+//         console.log(a,"is bigger");
+//         break
+//     }
+//     case false: {
+//         console.log(b,"is bigger");
+        
+//     }
+//     default : {
+//         console.log("Both are equal");
+        
+//     }
+// }
+
 // 5. Write a ts program to check whether a number is even or odd using switch case.
+
+// var a:number = 1123;
+
+// switch (a%2==0) {
+//     case true : {
+//         console.log(a, "is even");
+//         break;
+//     }
+//     case false : {
+//         console.log(a, "is odd");
+//         break;
+//     }
+//     default: {
+//         console.log("enter correct input");
+        
+//     }
+    
+// }
+
+
+
 // 6. Write a ts program to check whether a number is positive, negative or zero using switch case.
+
+// var a:number=0;
+
+// switch (true) {
+//     case a<0: {
+//         console.log("Number is negative");
+//         break;
+//         }
+//     case a>0: {
+//         console.log("Number is positive");
+//         break;
+//     }    
+//     default: {
+//         console.log("number is zero");
+        
+//     }
+
+// }
+
+
 // 7. Write a ts program to find roots of a quadratic equation using switch case.
 // 8. Write a ts program to create Simple Calculator using switch case.
+
+// var a:number=5
+// var b:number=5
+
+// switch (a*b){
+//     case 1: {
+//         console.log(a*b);
+        
+//     }
+    
+}
 
